@@ -1,0 +1,195 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/adam/Projects/cli-talk
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 95
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1984
+    content: "\e]0;adam@local:~/Projects/cli-talk\e\\\e]7;file://local/home/adam/Projects/cli-talk\e\\\e]0;adam@local: ~/Projects/cli-talk\a\e[01;32madam@local\e[00m:\e[01;34m~/Projects/cli-talk\e[00m$ "
+  - delay: 2032
+    content: .
+  - delay: 76
+    content: /
+  - delay: 406
+    content: i
+  - delay: 161
+    content: 'n'
+  - delay: 177
+    content: 'put.js '
+  - delay: 355
+    content: "\r\n"
+  - delay: 343
+    content: "\e[32m?\e[39m \e[1mUsername\e[22m\e[0m \e[0m\e[11D\e[11C"
+  - delay: 1266
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mUsername\e[22m\e[0m \e[0mb\e[12D\e[12C"
+  - delay: 253
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mUsername\e[22m\e[0m \e[0mbd\e[13D\e[13C"
+  - delay: 162
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mUsername\e[22m\e[0m \e[0mbda\e[14D\e[14C"
+  - delay: 138
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mUsername\e[22m\e[0m \e[0mbdad\e[15D\e[15C"
+  - delay: 601
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mUsername\e[22m\e[0m \e[0mbdada\e[16D\e[16C"
+  - delay: 126
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mUsername\e[22m\e[0m \e[0mbdadam\e[17D\e[17C"
+  - delay: 314
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mUsername\e[22m\e[0m \e[0m\e[36mbdadam\e[39m\e[17D\e[17C\r\n\e[32m?\e[39m \e[1mPassword\e[22m\e[0m \e[0m\e[3m\e[2m[input is hidden] \e[22m\e[23m\e[29D\e[29C"
+  - delay: 862
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPassword\e[22m\e[0m \e[0m\e[3m\e[2m[input is hidden] \e[22m\e[23m\e[29D\e[29C"
+  - delay: 135
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPassword\e[22m\e[0m \e[0m\e[3m\e[2m[input is hidden] \e[22m\e[23m\e[29D\e[29C"
+  - delay: 253
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPassword\e[22m\e[0m \e[0m\e[3m\e[2m[input is hidden] \e[22m\e[23m\e[29D\e[29C"
+  - delay: 230
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPassword\e[22m\e[0m \e[0m\e[3m\e[2m[input is hidden] \e[22m\e[23m\e[29D\e[29C"
+  - delay: 205
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPassword\e[22m\e[0m \e[0m\e[3m\e[2m[input is hidden] \e[22m\e[23m\e[29D\e[29C"
+  - delay: 225
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPassword\e[22m\e[0m \e[0m\e[3m\e[2m[input is hidden] \e[22m\e[23m\e[29D\e[29C"
+  - delay: 487
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPassword\e[22m\e[0m \e[0m\e[3m\e[2m[hidden]\e[22m\e[23m\e[19D\e[19C\r\n"
+  - delay: 5
+    content: "\e[?25l\e[32m?\e[39m \e[1mRole\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n  AdminAccess \r\n  PowerUserAccess \r\n\e[36m❯ ReadOnlyAccess\e[39m \e[17D\e[17C"
+  - delay: 1328
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mRole\e[22m\e[0m \e[0m\r\n  AdminAccess \r\n\e[36m❯ PowerUserAccess\e[39m \r\n  ReadOnlyAccess \e[17D\e[17C"
+  - delay: 158
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mRole\e[22m\e[0m \e[0m\r\n\e[36m❯ AdminAccess\e[39m \r\n  PowerUserAccess \r\n  ReadOnlyAccess \e[17D\e[17C"
+  - delay: 1108
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mRole\e[22m\e[0m \e[0m\e[36mAdminAccess\e[39m\e[18D\e[18C\r\n\e[?25h\e[?25l\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m(Press \e[36m\e[1m<space>\e[22m\e[39m to select, \e[36m\e[1m<a>\e[22m\e[39m to toggle all, \e[36m\e[1m<i>\e[22m\e[39m to invert selection)\r\n\e[36m❯◯ JS\e[39m\r\n ◯ TS\r\n ◯ C#\r\n ◯ Rust\r\n ◯ Python\r\n ◯ Go\e[5D\e[5C"
+  - delay: 1391
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n\e[36m❯\e[32m◉\e[36m JS\e[39m\r\n ◯ TS\r\n ◯ C#\r\n ◯ Rust\r\n ◯ Python\r\n ◯ Go\e[5D\e[5C"
+  - delay: 192
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n\e[36m❯◯ TS\e[39m\r\n ◯ C#\r\n ◯ Rust\r\n ◯ Python\r\n ◯ Go\e[5D\e[5C"
+  - delay: 174
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n\e[36m❯\e[32m◉\e[36m TS\e[39m\r\n ◯ C#\r\n ◯ Rust\r\n ◯ Python\r\n ◯ Go\e[5D\e[5C"
+  - delay: 214
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n \e[32m◉\e[39m TS\r\n\e[36m❯◯ C#\e[39m\r\n ◯ Rust\r\n ◯ Python\r\n ◯ Go\e[5D\e[5C"
+  - delay: 145
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n \e[32m◉\e[39m TS\r\n\e[36m❯\e[32m◉\e[36m C#\e[39m\r\n ◯ Rust\r\n ◯ Python\r\n ◯ Go\e[5D\e[5C"
+  - delay: 259
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n \e[32m◉\e[39m TS\r\n \e[32m◉\e[39m C#\r\n\e[36m❯◯ Rust\e[39m\r\n ◯ Python\r\n ◯ Go\e[5D\e[5C"
+  - delay: 143
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n \e[32m◉\e[39m TS\r\n \e[32m◉\e[39m C#\r\n\e[36m❯\e[32m◉\e[36m Rust\e[39m\r\n ◯ Python\r\n ◯ Go\e[5D\e[5C"
+  - delay: 238
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n \e[32m◉\e[39m TS\r\n \e[32m◉\e[39m C#\r\n \e[32m◉\e[39m Rust\r\n\e[36m❯◯ Python\e[39m\r\n ◯ Go\e[5D\e[5C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n \e[32m◉\e[39m TS\r\n \e[32m◉\e[39m C#\r\n \e[32m◉\e[39m Rust\r\n\e[36m❯\e[32m◉\e[36m Python\e[39m\r\n ◯ Go\e[5D\e[5C"
+  - delay: 294
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n \e[32m◉\e[39m TS\r\n \e[32m◉\e[39m C#\r\n \e[32m◉\e[39m Rust\r\n \e[32m◉\e[39m Python\r\n\e[36m❯◯ Go\e[39m\e[5D\e[5C"
+  - delay: 137
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\r\n \e[32m◉\e[39m JS\r\n \e[32m◉\e[39m TS\r\n \e[32m◉\e[39m C#\r\n \e[32m◉\e[39m Rust\r\n \e[32m◉\e[39m Python\r\n\e[36m❯\e[32m◉\e[36m Go\e[39m\e[5D\e[6C"
+  - delay: 1040
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProgramming language\e[22m\e[0m \e[0m\e[36mJS, TS, C#, Rust, Python, Go\e[39m\e[51D\e[51C\r\n\e[?25h"
+  - delay: 10
+    content: "{ username: \e[32m'bdadam'\e[39m,\r\n  password: \e[32m'123456'\e[39m,\r\n  role: \e[32m'AdminAccess'\e[39m,\r\n  lang: [ \e[32m'JS'\e[39m, \e[32m'TS'\e[39m, \e[32m'C#'\e[39m, \e[32m'Rust'\e[39m, \e[32m'Python'\e[39m, \e[32m'Go'\e[39m ] }\r\n\e[?25h"
+  - delay: 6
+    content: "\e]0;adam@local:~/Projects/cli-talk\e\\\e]7;file://local/home/adam/Projects/cli-talk\e\\\e]0;adam@local: ~/Projects/cli-talk\a\e[01;32madam@local\e[00m:\e[01;34m~/Projects/cli-talk\e[00m$ "
+  - delay: 2683
+    content: "logout\r\n"

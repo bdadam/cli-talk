@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Do It Yourself: Command Line Tools</title>
+        <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i&subset=latin-ext" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&amp;subset=latin-ext"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&amp;subset=latin-ext" rel="stylesheet" />
+        <style>
+            body {
+                font-family: 'Roboto';
+            }
+            h1,
+            h2,
+            h3 {
+                font-family: 'Yanone Kaffeesatz';
+                font-weight: 700;
+                letter-spacing: 0.03em;
+                line-height: 1.3em;
+            }
+
+            .headline-box h1 {
+                padding: 24px 0;
+                background-color: rgba(0, 0, 0, 0.75);
+            }
+
+            .headline-light h1,
+            .headline-light h2,
+            .headline-light h3 {
+                color: #fff;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+            }
+
+            .remark-code,
+            .remark-inline-code {
+                font-family: 'Source Code Pro', monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+        <script>
+            remark.create({
+                sourceUrl: 'slides.md',
+                ratio: '16:9',
+                slideNumberFormat: '%current% / %total%',
+                countIncrementalSlides: false,
+                navigation: {
+                    scroll: true,
+                    touch: true,
+                    click: false,
+                },
+            });
+        </script>
+    </body>
+</html>
