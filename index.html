@@ -3,15 +3,25 @@
     <head>
         <title>Do It Yourself: Command Line Tools</title>
         <meta charset="utf-8" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i&subset=latin-ext" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:400,400i&subset=latin-ext"
+            rel="stylesheet"
+        />
         <link
             href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&amp;subset=latin-ext"
             rel="stylesheet"
         />
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&amp;subset=latin-ext" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro&amp;subset=latin-ext"
+            rel="stylesheet"
+        />
         <style>
+            html {
+                font-size: 100%;
+            }
             body {
                 font-family: 'Roboto';
+                font-size: 1rem;
             }
             h1,
             h2,
@@ -38,6 +48,14 @@
             .remark-inline-code {
                 font-family: 'Source Code Pro', monospace;
             }
+
+            .remark-slide-number {
+                font-family: 'Source Code Pro', monospace;
+                background-color: rgba(0, 0, 0, 0.75);
+                padding: 4px 20px;
+                color: #fff;
+                font-size: 1rem;
+            }
         </style>
     </head>
     <body>
@@ -46,7 +64,8 @@
             remark.create({
                 sourceUrl: 'slides.md',
                 ratio: '16:9',
-                slideNumberFormat: '%current% / %total%',
+                slideNumberFormat:
+                    'Adam Beres-Deak | me@bdadam.com | %current% / %total%',
                 countIncrementalSlides: false,
                 navigation: {
                     scroll: true,

@@ -4,6 +4,8 @@ background-size: cover
 
 # Do It Yourself:<br>Command Line Tools
 
+## Adam Beres-Deak
+
 ---
 
 class: center, middle, headline-light
