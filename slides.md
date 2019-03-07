@@ -102,6 +102,31 @@ We also get `--help` for free.
 
 ---
 
+# Showing porgress bar
+
+```js
+#!/usr/bin/env node
+
+const ProgressBar = require('progress');
+
+const bar = new ProgressBar(':bar', { total: 40 });
+const timer = setInterval(function() {
+  bar.tick();
+  if (bar.complete) {
+    console.log('\ncomplete\n');
+    clearInterval(timer);
+  }
+}, 100);
+```
+
+---
+
+class: center, middle
+
+![Progress bar](images/progress.js.gif)
+
+---
+
 # Read user input a.k.a. Inquirer.js
 
 ---
@@ -139,3 +164,14 @@ inquirer
 class: center, middle
 
 ![CLI](images/input.js.gif)
+
+---
+
+# Links
+
+- Parsing arguments: [yargs](https://github.com/yargs/yargs)
+- Fancy user input: [inquirer.js](https://github.com/SBoudrias/Inquirer.js)
+- Progress bar: [progress](https://github.com/visionmedia/node-progress)
+- Writing colorful messages to the console: [consola](https://github.com/nuxt/consola)
+
+.center[![CLI](images/input.js.gif)]

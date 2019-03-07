@@ -8,6 +8,7 @@
     },
     "dependencies": {
         "inquirer": "^6.2.2",
+        "progress": "^2.0.3",
         "yargs": "^13.2.1"
     }
 }
