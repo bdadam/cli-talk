@@ -175,5 +175,6 @@ class: center, middle
 - Fancy user input: [inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 - Progress bar: [progress](https://github.com/visionmedia/node-progress)
 - Writing colorful messages to the console: [consola](https://github.com/nuxt/consola)
+- Simple presentation: [remark](https://github.com/gnab/remark)
 
 .center[![CLI](images/input.js.gif)]
