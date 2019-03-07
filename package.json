@@ -1,0 +1,13 @@
+{
+    "name": "cli-talk",
+    "version": "0.3.2",
+    "main": "index.js",
+    "license": "UNLICENSED",
+    "bin": {
+        "awesome-cli": "./cli.js"
+    },
+    "dependencies": {
+        "inquirer": "^6.2.2",
+        "yargs": "^13.2.1"
+    }
+}
