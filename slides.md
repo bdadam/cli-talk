@@ -129,7 +129,14 @@ class: center, middle
 
 ---
 
-# Read user input a.k.a. Inquirer.js
+# Read user input
+
+- Can be more than just text field: confirm, list, multiple selection
+- One question can depend on the answer of a previous one
+- Works on many terminals
+  - Mac OS: Terminal.app, iTerm
+  - Windows: ConEmu, cmd.exe, Powershell, Cygwin
+  - Linux: gnome-terminal (Terminal GNOME), konsole
 
 ---
 
